@@ -8,14 +8,14 @@ const app = express();
 app.use(bodyParser.urlencoded({extended:true}));
 
 
-app.get("/",function(req,res){
+app.get("https://shivanshdwivedi.github.io/Cal--Bmi/",function(req,res){
 
 res.sendFile(__dirname + "/index.html");
 
 });
 
 
-app.post("/",function(req,res){
+app.post("https://shivanshdwivedi.github.io/Cal--Bmi/",function(req,res){
 
  var height = Number(req.body.num1);
  var weight = Number(req.body.num2);
